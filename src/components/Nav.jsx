@@ -9,7 +9,7 @@ function Nav() {
       <div className="wrap nav-inner">
         <a href="#top" className="brand" aria-label="JeffTech — início" onClick={() => setOpen(false)}>
           <img src="/assets/jefftech-logo.png" alt="" className="brand-logo" />
-          <span className="brand-name">JEFFTECH</span>
+          <span className="brand-name">JeffTech</span>
         </a>
         <div className={`nav-links ${open ? 'open' : ''}`}>
           <a href="#sobre" onClick={() => setOpen(false)}>Sobre</a>
